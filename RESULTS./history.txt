@@ -1,0 +1,311 @@
+    1  export PATH=$PATH:/opt/esru/bin:/opt/esru/esp-r/bin/
+    2  prj
+    3  cd Bureau/MEDUSPROGRAM/
+    4  ./MEDUS
+    5  ./MEDUS.sh
+    6  lqpci
+    7  lspci
+    8  cd Bureau/MEDUSPROGRAM/
+    9  ls
+   10  ls *.sh
+   11  ./MEDUS.sh
+   12  cd Bureau/MEDUSPROGRAM
+   13  ls
+   14  ./
+   15  ls
+   16  cd CENTRALFILES/
+   17  ls
+   18  cd C_ACHL/
+   19  ls
+   20  cd ..
+   21  cd C_SURF/
+   22  ls
+   23  ./C_change_surf.sh 4
+   24  ./C_change_surf.sh 6
+   25  cd ..
+   26  cd C_ACHL/
+   27  ls
+   28  ./C_change_achl.sh 12
+   29  cd Bureau/MEDUSPROGRAM
+   30  ls
+   31  ./MEDUS.sh
+   32  cd Bureau/MEDUSPROGRAM
+   33  ./MEDUS.sh
+   34  cd Bureau/MEDUSPROGRAM
+   35  ls
+   36  ./MEDUS.sh
+   37  cd Bureau/MEDUSPROGRAM/
+   38  ls
+   39  ./MEDUS.sh
+   40  cd Bureau/THESISl
+   41  ls
+   42  cd LATEX/
+   43  ls
+   44  cd biblio/
+   45  java -jar JabRef-2.6b2.jar 
+   46  cd Bureau/MEDUSPROGRAM/
+   47  ls
+   48  ./MEDUS.sh
+   49  sudo apt-get install libenchant
+   50  sudo apt-cache search libenchant
+   51  sudo apt-get install libenchant1c2a
+   52  sudo add-apt-repository ppa:lyx-devel/release
+   53  sudo apt-get update
+   54  cd ..
+   55  cd usr/share/lyx/
+   56  ls
+   57  ld
+   58  ls
+   59  lyx
+   60  cd ..
+   61  locate lyx-2.0.4
+   62  locate lyx
+   63  cd Bureau/lyx-2.0.4/
+   64  ls
+   65  ./configure
+   66  sudo make install
+   67  cd Bureau/THESISl/LATEX/biblio/
+   68  ls
+   69  java -jar JabRef-2.6b2.jar 
+   70  cd Bureau/THESISl/LATEX/biblio/
+   71  ls
+   72  java -jar JabRef-2.6b2.jar 
+   73  cd usr/
+   74  cd ..
+   75  cd..
+   76  cd ..
+   77  cd usr/
+   78  cd share/
+   79  cd hundspell
+   80  cd hunspell/
+   81  ls
+   82  lyx
+   83  lyx
+   84  cd Bureau/THESISl/LATEX/biblio/
+   85  ls
+   86  Java -jar JabRef-2.6b2.jar 
+   87  java -jar JabRef-2.6b2.jar 
+   88  lyx
+   89  cd Bureau/MEDUSPROGRAM/RESULTS/
+   90  ./collector2.sh 
+   91  cp *.rat /R2
+   92  cp *.rat /home/dgarci08/Bureau/MEDUSPROGRAM/RESULTS/R2/
+   93  r
+   94  sudo apt-get install littler
+   95  rkward
+   96  sudo rkward
+   97  cd Bureau/sobol_experiment/
+   98  ls
+   99  cd sobol_g/
+  100  ls
+  101  test3.sh 1000
+  102  ./test3.sh 1000
+  103  ./test2.sh 1000
+  104  clc
+  105  clear
+  106  ./test2.sh 1000
+  107  clc
+  108  clear
+  109  ./test2.sh 100
+  110  clear
+  111  ./test2.sh 1000
+  112  clear
+  113  ./test2.sh 10000
+  114  ./test2.sh 100000
+  115  lyx
+  116  cd Bureau/MEDUSPROGRAM/TYPL3/ctl/
+  117  ls
+  118  diff minerva.ctl TYPL3.ctl 
+  119  clear
+  120  diff minerva.ctl TYPL3.ctl 
+  121  clear
+  122  diff minerva.ctl TYPL3.ctl 
+  123  clear
+  124  diff minerva.ctl TYPL3.ctl 
+  125  cd Bureau/MEDUSPROGRAM/CENTRALFILES/
+  126  ls
+  127  cd A_CTL/
+  128  ls
+  129  ./change_ctl_A.pl TESTA.ctl 20 5
+  130  ls
+  131  ./change_ctl_A_bash.sh 19 22 1 5
+  132  ls
+  133  ./change_ctl_A_bash.sh 19 22 1 5 3
+  134  cd ;.
+  135  cd ..
+  136  ls
+  137  cd dgarci08/
+  138  ls
+  139  cd Bureau/
+  140  cd MEDUSPROGRAM
+  141  cd CENTRALFILES/
+  142  ls
+  143  B_CTL/
+  144  ls
+  145  cd B_CTL/
+  146  ls
+  147  ./change_ctl_B_bash.sh 19 22 1 5 1
+  148  cd ..
+  149  cd C_CTL/
+  150  ls
+  151  ./change_ctl_C_bash.sh 19 22 1 5 1
+  152  ls
+  153  ./change_ctl_C.pl minerva.ctl 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 23 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+  154  ./change_ctl_C_bash.sh 19 22 1 5 1
+  155  lyx
+  156  cd Bureau/MEDUSPROGRAM/CENTRALFILES/D_GLAZING/
+  157  ls
+  158  cd ..
+  159  C_G
+  160  C_GLAZING/
+  161  ls
+  162  cd C_GLAZING/
+  163  ls
+  164  ./C_change_glazing.sh 10 20 30 10 50 10 14 18 19 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 a a a a b b b a a a b b b b a a a a b b b b a a a a b b b b a a a a b b
+  165  cd Bureau/MEDUSPROGRAM/CENTRALFILES/A_GLAZING/
+  166  ls
+  167  ./A_change_glazing.sh 40 20 30 10 b  
+  168  ./A_change_glazing.sh 40 20 30 10 b b b b
+  169  ./A_change_glazing.sh 40 20 30 10 b a b a
+  170  cd Bureau/MEDUSPROGRAM
+  171  ls
+  172  ./MEDUS.sh
+  173  cd Bureau/MEDUSPROGRAM
+  174  ./MEDUS.sh
+  175  clc
+  176  clear
+  177  ./MEDUS.sh
+  178  lyx
+  179  cd Bureau/MEDUSPROGRAM
+  180  ls
+  181  ./MEDUS.sh
+  182  cd Bureau/MEDUSPROGRAM/
+  183  ls
+  184  ./MEDUS.sh
+  185  cd Bureau/MEDUSPROGRAM/
+  186  ./MEDUS.sh
+  187  cd Bureau/MEDUSPROGRAM/
+  188  awk -F";" '{printf "%i %i %i %i %s %i %i %i %i %i %i %i %i %i %s %i %i %i %i %5.6f %i %i %i %i %i %i %i %s \n" , $1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20, $21, $22, $23, $24, $25, $26, $27, $28}' FD_LOGEMT_2007_iris_441090409.csv > R2.txt
+  189  CLEAR
+  190  clc
+  191  clear
+  192  awk -F";" '{printf "%i %i %i %i %s %i %i %i %i %i %i %i %i %i %s %i %i %i %i %5.6f %i %i %i %i %i %i %i %s \n" , $1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18, $19, $20, $21, $22, $23, $24, $25, $26, $27, $28}' FD_LOGEMT_2007_iris_441090409.csv > R2.txt
+  193  sed "s/^ *//;s/ *$//;s/ \{1,\}/ /g" R2.txt > R3.txt
+  194  awk 'FNR>1' R3.txt > R1.txt
+  195  awk 'NR==1 {print $28 ;exit}' R1.txt
+  196  cd Bureau/MEDUSPROGRAM/
+  197  ./MEDUS.sh
+  198  cd ..
+  199  cd..
+  200  ls
+  201  cd home
+  202  cd dgarci08
+  203  cd Bureau/
+  204  ls
+  205  cd Bureau/MEDUSPROGRAM/
+  206  ./MEDUS.sh
+  207  lyx
+  208  cd Bureau/THESIS
+  209  ls
+  210  cd LATEX/
+  211  ls
+  212  cd biblio
+  213  ls
+  214  java -jar JabRef-2.6b2.jar 
+  215  cd Bureau/MEDUSPROGRAM/
+  216  ./MEDUS.sh
+  217  cd Bureau/MEDUSPROGRAM/RESULTS/
+  218  STR=`echo | ls *.rat | sort -n | awk '{printf  $0" "}'`;
+  219  paste -d";" $STR > totale.csv
+  220  STR=`echo | ls *.srf | sort -n | awk '{printf  $0" "}'`;
+  221  paste -d";" $STR > surface.csv
+  222  lyx
+  223  cd Bureau/THESIS/LATEX/
+  224  ls
+  225  cd biblio
+  226  ls
+  227  java -jar JabRef-2.6b2.jar 
+  228  cd Bureau/MEDUSPROGRAM
+  229  ls
+  230  cd RESULTS/
+  231  ls
+  232  ./collector.sh 
+  233  ./plotter_energy_needs.sh 
+  234  ./monotone.sh 
+  235  cd Bureau/THESIS_rendu/
+  236  ls
+  237  cd LATEX/
+  238  cd biblio
+  239  ls
+  240  java -jar JabRef-2.6b2.jar 
+  241  cd Bureau/MEDUSPROGRAM/CENTRALFILES/CHANGE_CLIMA_PROC/
+  242  ls
+  243  awk '$1!="*" {print $0}' Nantes.txt > test.txt
+  244  ./change_clm_medus.sh Nantes 1 1 1 1 1 1
+  245  ./change_clm_medus.sh Nantes .8 1 .8 1 1 1
+  246  awk '$1!="*" {print $0}' Nantes.txt > test.txt
+  247  ./change_clm_medus.sh Nantes .8 1 .8 1 1 1
+  248  cd ..
+  249  ./MEDUS.sh
+  250  cd Bureau/MEDUSPROGRAM/
+  251  ls
+  252  ./MEDUS.sh
+  253  cd Bureau/MEDUSPROGRAM
+  254  ls
+  255  ./MEDUS.sh
+  256  ls
+  257  cd RESULTS
+  258  ls
+  259  STR=`echo | ls *.rat | sort -n | awk '{printf  $0" "}'`;
+  260  paste -d";" $STR > Total_conso.txt
+  261  STR=`echo | ls *.rat | sort -n | awk '{printf  $0" "}'`;
+  262  paste -d"\n" $STR > Total_conso.txt
+  263  STR=`echo | ls *.sfr | sort -n | awk '{printf  $0" "}'`;
+  264  STR=`echo | ls *.srf | sort -n | awk '{printf  $0" "}'`;
+  265  paste -d"\n" $STR > area.txt
+  266  cd..
+  267  cd ..
+  268  cd MEDUSPROGRAM2
+  269  ls
+  270  cd CENTRALFILES/
+  271  ls
+  272  cd C_SURF/
+  273  ls
+  274  cd ..
+  275  cd MEDUSPROGRAM
+  276  ls
+  277  cd CENTRALFILES/a
+  278  cd CENTRALFILES/
+  279  ls
+  280  cd C_ACHL/
+  281  ls
+  282  cd ..
+  283  cd C_SURF/
+  284  ls
+  285  ./C_change_surf.sh 1 test
+  286  ./C_change_surf.sh 4 test
+  287  ./C_change_surf.sh 3 test
+  288  cd Bureau/MEDUSPROGRAM/CENTRALFILES/C_SURF/
+  289  ls
+  290  ./C_change_surf.sh 3 test
+  291  cd Bureau/MEDUSPROGRAM
+  292  ls
+  293  cd CENTRALFILES/
+  294  ls
+  295  cd A_SURF/
+  296  ls
+  297  ./A_change_surf.sh 1 test
+  298  ./A_change_surf.sh 3 test
+  299  cd Bureau/MEDUSPROGRAM/
+  300  ./MEDUS.sh
+  301  cd Bureau/
+  302  cd THESIS_rendu/
+  303  cd LATEX/
+  304  ls
+  305  cd biblio
+  306  ls
+  307  java -jar JabRef-2.6b2.jar 
+  308  ls
+  309  cd Bureau/MEDUSPROGRAM/RESULTS/
+  310  ls
+  311  history > history.txt
